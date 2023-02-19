@@ -14,7 +14,7 @@ public class AccountController {
     }
 
     @GetMapping("/depositForm")
-    public String depositoryForm() {
+    public String depositForm() {
 
         return "account/depositForm";
     }
